@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConnectX - Career Growth Platform</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        }
+        .stats-card {
+            transition: transform 0.3s ease;
+        }
+        .stats-card:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-gray-50 to-blue-50 min-h-screen">
+    <!-- Navigation -->
+    <nav class="glass-effect fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex items-center">
+                    <h1 class="text-3xl font-bold">
+                        <span class="text-blue-600">Connect</span>
+                        <span class="text-black">X</span>
+                    </h1>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <a href="signin.html" class="text-gray-700 hover:text-blue-600 transition">
+                        <i class="fas fa-user mr-2"></i>
+                        Sign In
+                    </a>
+                    <a href="register.html" class="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition duration-300 shadow-lg">
+                        JOIN US NOW
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Stats Section -->
+    <div class="pt-32 pb-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+                <div class="glass-effect rounded-xl p-6 text-center stats-card">
+                    <p class="text-gray-600 mb-2">no of Internships</p>
+                    <p class="text-4xl font-bold text-blue-600">3K+</p>
+                </div>
+                <div class="glass-effect rounded-xl p-6 text-center stats-card">
+                    <p class="text-gray-600 mb-2">no of jobs available</p>
+                    <p class="text-4xl font-bold text-blue-600">3K+</p>
+                </div>
+                <div class="glass-effect rounded-xl p-6 text-center stats-card">
+                    <p class="text-gray-600 mb-2">no of companys</p>
+                    <p class="text-4xl font-bold text-blue-600">3K+</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h2 class="text-5xl font-bold text-gray-900 mb-8">
+                    Gala of Hope
+                </h2>
+                <p class="text-xl text-gray-600 mb-12">
+                    Convenient way of getting more employment
+                </p>
+                <a href="register.html" class="inline-block bg-blue-600 text-white px-8 py-3 rounded-full hover:bg-blue-700 transition duration-300 shadow-lg text-lg">
+                    JOIN US NOW
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
